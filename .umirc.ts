@@ -17,5 +17,7 @@ export default defineConfig({
   sass: {},
   define: {
     ANNUAL_YEAR: process.env.ANNUAL_YEAR,
+    access_user: process.env.access_user,
+    access_token: process.env.access_token,
   }
 });

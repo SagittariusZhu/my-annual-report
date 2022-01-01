@@ -3,11 +3,10 @@ import { set, get } from './util';
 
 const baseURL = 'https://api.github.com';
 const fetch = (url, token) => {
-    console.log(url);
     return request(`${baseURL}${url}`, {
         auth: {
-            user: 'zhuhy163@163.com',
-            token: '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',
+            user: access_user,
+            token: access_token,
         },
     });
 };
