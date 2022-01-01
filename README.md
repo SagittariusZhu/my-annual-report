@@ -28,6 +28,10 @@ $ yarn start
 **Notes**
 You must set your browser width less then 500px, because this site is designed for mobile.
 
+## Thanks
+
+This project is come from [github-annual-report](https://github.com/shuiRong/github-annual-report), but it is **NOT** worked now, so I make it work again.
+
 ## Snapshots
 
 ![Home](./snapshots/home.png)

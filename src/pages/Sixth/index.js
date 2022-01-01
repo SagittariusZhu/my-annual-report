@@ -18,7 +18,7 @@ export default function Sixth() {
             </section>
             <NewYear />
             <a
-                href="https://github.com/shuiRong/github-annual-report"
+                href="https://github.com/SagittariusZhu/my-annual-report"
                 target="_blanket"
                 className="button"
             >
