@@ -25,6 +25,9 @@ Start the dev server,
 $ yarn start
 ```
 
+**Notes**
+You must set your browser width less then 500px, because this site is designed for mobile.
+
 ## Snapshots
 
 ![Home](./snapshots/home.png)
