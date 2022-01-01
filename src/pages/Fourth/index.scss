@@ -1,0 +1,49 @@
+@import '../../util.scss';
+
+.fourth {
+    width: 100vw;
+    height: 100%;
+    background-color: var(--fourth-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    > img {
+        width: 80%;
+        border-radius: 1vw;
+    }
+    section {
+        width: 80%;
+        margin-bottom: 10vw;
+        h1 {
+            font-size: tvw(60);
+            position: relative;
+            text-align: center;
+        }
+        .left {
+            text-align: left;
+            margin-bottom: 5vw;
+        }
+        .right {
+            text-align: right;
+            margin-bottom: 10vw;
+        }
+        > p {
+            text-align: center;
+            margin: 2.5vw 0;
+        }
+        strong {
+            font-size: tvw(30);
+        }
+    }
+    footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        .past {
+            width: 100%;
+        }
+    }
+}

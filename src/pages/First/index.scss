@@ -1,0 +1,33 @@
+@import '../../util.scss';
+
+.first {
+    width: 100vw;
+    height: 100%;
+    background-color: var(--first-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 10vw;
+    .hi {
+        font-size: tvw(60);
+        text-align: center;
+    }
+    section {
+        margin-bottom: 10vw;
+        .content {
+            margin: 5vw 0 20vw 10vw;
+            text-align: right;
+        }
+    }
+    footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        .past {
+            width: 100%;
+        }
+    }
+}

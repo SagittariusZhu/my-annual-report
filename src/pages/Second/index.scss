@@ -1,0 +1,57 @@
+@import '../../util.scss';
+
+.second {
+    width: 100vw;
+    height: 100%;
+    padding: 0 10vw;
+    background-color: var(--second-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .bold {
+        font-size: tvw(25);
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        text-align: left;
+        margin-bottom: 10vw;
+        h1 {
+            font-size: tvw(40);
+            line-height: 1;
+            margin-bottom: 2vw;
+            strong {
+                font-size: tvw(60);
+            }
+        }
+        h3 {
+            font-size: tvw(30);
+            line-height: 1;
+            margin-bottom: 8vw;
+            strong {
+                font-size: tvw(50);
+            }
+        }
+        > div {
+            align-self: flex-end;
+            text-align: right;
+        }
+        > p {
+            margin-top: 15vw;
+            align-self: center;
+            text-align: center;
+        }
+    }
+    footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        .past {
+            width: 100%;
+        }
+    }
+}
